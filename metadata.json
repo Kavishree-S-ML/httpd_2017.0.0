@@ -1,0 +1,30 @@
+{
+  "name": "kavishree-httpd",
+  "version": "1.0.2",
+  "author": "Kavishree Shanmugam",
+  "summary": "Installs, configures, and manages the httpd service.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/KavishreeShanmugam/httpd_1.0.2",
+  "project_page": "https://github.com/KavishreeShanmugam/httpd_1.0.2",
+  "issues_url": "https://tickets.puppetlabs.com/browse/MODULES",
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 4.13.1 < 5.0.0"}
+  ],
+  "data_provider": "hiera",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.5.0 < 5.0.0"
+    }
+  ],
+  "description": "httpd web server for Centos"
+}
